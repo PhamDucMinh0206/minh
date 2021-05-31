@@ -5,7 +5,7 @@ app.get('/',(rep,res)=>{
     res.sendFile(__dirname + '/public/index.html');
 })
 app.get('/minhp',(rep,res)=>{
-    res.sendFile(__dirname + '/public/minhp/index.html');
+    res.sendFile(__dirname + '/public/minhp.html');
 })
 
 const POST =3000;
